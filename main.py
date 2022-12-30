@@ -1,3 +1,7 @@
+# #!pip3 install qiskit
+# #!pip3 install qiskit.providers.aer
+# #!pip3 install qiskit.visualization
+
 import numpy as np
 from qiskit import QuantumCircuit, transpile
 from qiskit.providers.aer import QasmSimulator
